@@ -1,11 +1,13 @@
-import { Link } from "react-router-dom"
+interface IBotao{
+    conteudo: string
+}
 
-const Botao = (conteudo: string) => {
+const BotaoDeSim = ({conteudo}: IBotao) => {
     return (
         <div>
-            <Link to={"/aceitou"}/>
+            {conteudo}
         </div>
     )
 }
 
-export default Botao
+export default BotaoDeSim
