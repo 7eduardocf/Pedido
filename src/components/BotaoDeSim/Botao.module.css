@@ -10,6 +10,7 @@
     font-weight: 600;
     border-radius: .9em;
     border: 3px solid #3b3f49;
+    cursor: pointer;
 }
 .sim:hover {
     transition: .5s;

@@ -18,6 +18,7 @@ const BotaoDeSim = ({conteudo}: IBotao) => {
         setPosicao({top: novoTop, left: novaLeft, isFixed: true})
     }
 
+
     return (
         <div 
             className={`${styles.container} ${isSim ?styles.sim : ""}`}
@@ -27,6 +28,7 @@ const BotaoDeSim = ({conteudo}: IBotao) => {
                 left: `${posicao.left}px`
             }: {}} 
             onMouseEnter={!isSim ? novaPosicao: undefined}
+            
             >
             {conteudo}
         </div>
