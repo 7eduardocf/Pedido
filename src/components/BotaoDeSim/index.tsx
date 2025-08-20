@@ -1,5 +1,6 @@
 import { useState } from "react"
 import styles from "./Botao.module.css"
+import { Link } from "react-router-dom"
 
 interface IBotao{
     conteudo: string
@@ -30,7 +31,9 @@ const BotaoDeSim = ({conteudo}: IBotao) => {
             onMouseEnter={!isSim ? novaPosicao: undefined}
             
             >
-            {conteudo}
+            {isSim ? (
+                <Link to="/sim" className={styles.link}>{conteudo}</Link>
+            ): <>{conteudo}</>}
         </div>
     )
 }

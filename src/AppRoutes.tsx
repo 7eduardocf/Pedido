@@ -1,12 +1,13 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import App from './App'
+import Sim from './pages/Sim'
+import Inicial from './pages/Inicial'
 
 const AppRoutes = () => {
   return (
     <BrowserRouter>
         <Routes>
-            <Route path='/' element={<App/>}/>
-            <Route path='/sim' element={<App/>}/>
+            <Route path='/' element={<Inicial/>}/>
+            <Route path='/sim' element={<Sim/>}/>
         </Routes>
     </BrowserRouter>
   )

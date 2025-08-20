@@ -1,14 +1,10 @@
 import './app.css'
-import Conteudo from './components/Conteudo'
-import Titulo from './components/Titulo'
+import AppRoutes from './AppRoutes'
 
 function App() {
 
     return (
-        <>
-            <Titulo/>
-            <Conteudo/>
-        </>
+        <AppRoutes/>
     )
 }
 
