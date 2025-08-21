@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Sim from './pages/Sim'
+import Sim from './pages/Sim/Sim'
 import Inicial from './pages/Inicial'
 
 const AppRoutes = () => {

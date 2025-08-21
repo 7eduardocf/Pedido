@@ -1,0 +1,22 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: url("./spring-4351.gif") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(0.8px);
+    width: auto;
+    height: 2em;
+}
+.box h2{
+    color: rgb(204, 221, 176);
+    font-family: "Noto Sans", sans-serif;
+}
